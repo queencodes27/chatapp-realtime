@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+channels = "*"
+djangorestframework = "*"
+drf-yasg = "*"
+djangorestframework-simplejwt = "*"
+channels-redis = "*"
+python-decouple = "*"
+psycopg2-binary = "*"
+daphne = "*"
+whitenoise = "*"
+
+[dev-packages]
+black = "*"
+isort = "*"
+
+[requires]
+python_version = "3.10"
